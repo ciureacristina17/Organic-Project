@@ -1,0 +1,67 @@
+@media only screen and (min-device-width: 768px) and (max-device-width:992px) {
+    #NavBarText ul {
+        padding-left: 700px;
+        font-size: 13px;
+        font-family: 'Libre Baskerville', serif;
+    }
+    #NavBarText ul li a.nav-link {
+        color: black;
+        margin-right: 50px;
+        margin-bottom: 30px;
+    }
+    .nav-link.btn.btn-light {
+        font-size: 12px;
+        border: 1px solid #00dbd0;
+        border-radius: 10px 10px;
+    }
+    .aboutus {
+        margin-left: 500px;
+        width: 100%;
+    }
+    .frunza img {
+        margin-top: 90px;
+        margin-left: 918px;
+    }
+    .frunza h2 {
+        font-size: 35px;
+        font-weight: 400;
+        margin-left: 655px;
+        width: 100%;
+    }
+    .continut {
+        width: 100%;
+        margin-left: 660px;
+    }
+    .organic-food {
+        width: 1900px;
+    }
+    .col-md-3.sectiune-organic {
+        margin-right: -10px;
+        padding-right: 150px;
+    }
+    .footer img {
+        width: 1965px;
+        height: 570px;
+    }
+    .container-footer {
+        margin-top: -175px;
+        margin-left: 210px;
+        color: white;
+        width: 180%;
+    }
+    .col-lorem {
+        margin-top: -65px;
+    }
+    .col-information {
+        margin-left: 35px;
+        margin-top: -36px;
+    }
+    .col-aboutus {
+        margin-left: 15px;
+        margin-top: -75px;
+    }
+    .col-icons {
+        margin-top: -78px;
+        margin-left: 200px;
+    }
+}

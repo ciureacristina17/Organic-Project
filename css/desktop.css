@@ -1,0 +1,47 @@
+@media only screen and (min-device-width: 993px) and (max-device-width:1199px) {
+    #NavBarText ul {
+        padding-left: 850px;
+        font-size: 13px;
+        font-family: 'Libre Baskerville', serif;
+    }
+    .profil {
+        margin-top: -457px;
+        margin-left: 750px;
+        height: 780px;
+        width: 900px;
+    }
+    .frunza img {
+        margin-top: 90px;
+        margin-left: 1000px;
+    }
+    .frunza h2 {
+        font-size: 35px;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-left: 880px;
+        width: 100%;
+    }
+    .continut {
+        width: 60%;
+        margin-left: 840px;
+    }
+    .col-md-3.sectiune-organic {
+        margin-right: -15px;
+        padding-right: 90px;
+    }
+    .proudly h2 {
+        font-weight: 400;
+        margin-top: 160px;
+        margin-left: 890px;
+        width: 100%;
+    }
+    #carouselExampleIndicators {
+        margin-left: 175px;
+        width: 1700px;
+        margin-top: 115px;
+    }
+    .form-group {
+        margin-left: 375px;
+        width: 100%;
+    }
+}

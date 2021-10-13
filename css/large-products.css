@@ -1,0 +1,88 @@
+@media only screen and (min-device-width: 992px) and (max-device-width:1200px) {
+    .navbar-brand {
+        margin-top: -15px;
+    }
+    #NavBarText ul {
+        padding-left: 380px;
+        font-size: 13px;
+        font-family: 'Libre Baskerville', serif;
+    }
+    #NavBarText ul li a.nav-link {
+        color: black;
+        margin-right: 50px;
+        margin-bottom: 30px;
+    }
+    .nav-link.btn.btn-light {
+        font-size: 12px;
+        border: 1px solid #00dbd0;
+        border-radius: 10px 10px;
+    }
+    .products h2 {
+        margin-left: 500px;
+    }
+    .text-products {
+        width: 100%;
+        margin-left: 255px;
+    }
+    .countdown {
+        margin-bottom: 150px;
+        padding-bottom: 60px;
+        background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(72, 129, 235));
+        width: 1500px;
+    }
+    .card-deck.mt-5 {
+        margin-left: 142px;
+        margin-right: -400px;
+    }
+    .btn.btn-light-order {
+        margin-left: 150px;
+        font-size: 14px;
+        border: 2px solid #00dbd0;
+        border-radius: 10px 10px;
+    }
+    .footer img {
+        width: 1528px;
+        height: 570px;
+    }
+    .footer {
+        margin-top: 100px;
+        margin-left: -15px;
+    }
+    .container-footer {
+        margin-top: -261px;
+        margin-left: 177px;
+        color: white;
+        width: 1800px;
+    }
+    .col-information {
+        margin-top: -30px;
+        margin-left: 60px;
+    }
+    .col-aboutus {
+        margin-top: -65px;
+        margin-left: 60px;
+    }
+    .col-icons {
+        margin-top: -65px;
+        margin-left: 225px;
+    }
+    .elit {
+        margin-top: -10px;
+        margin-right: 160px;
+    }
+    .col-lorem h6 {
+        margin-right: 175px;
+    }
+    .col-information {
+        margin-top: 16px;
+        margin-left: -42px;
+    }
+    .col-aboutus {
+        margin-top: -16px;
+        margin-left: -35px;
+    }
+    .col-icons {
+        margin-left: 150px;
+        margin-top: -14px;
+    }
+}

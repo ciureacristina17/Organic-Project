@@ -1,0 +1,47 @@
+@media only screen and (min-device-width: 576px) and (max-device-width:767px) {
+    .send-message h2 {
+        margin-left: 500px;
+        width: 100%;
+    }
+    .text-contact {
+        width: 100%;
+        margin-left: 500px;
+    }
+    .formular {
+        margin-left: 500px;
+    }
+    .btn.btn-light-submit {
+        font-size: 14px;
+        color: white;
+        border: 1px solid #00dbd0;
+        background-color: #00dbd0;
+        border-radius: 10px 10px;
+        margin-left: 780px;
+    }
+    .footer img {
+        width: 1965px;
+        height: 570px;
+    }
+    .container-footer {
+        margin-top: -175px;
+        margin-left: 210px;
+        color: white;
+        width: 180%;
+    }
+    .col-lorem {
+        margin-top: -65px;
+        margin-left: 15px;
+    }
+    .col-information {
+        margin-left: 35px;
+        margin-top: -36px;
+    }
+    .col-aboutus {
+        margin-left: 15px;
+        margin-top: -75px;
+    }
+    .col-icons {
+        margin-top: -78px;
+        margin-left: 200px;
+    }
+}

@@ -1,0 +1,111 @@
+@media only screen and (min-device-width: 768px) and (max-device-width:992px) {
+    #NavBarText ul {
+        padding-left: 720px;
+        font-size: 13px;
+        font-family: 'Libre Baskerville', serif;
+    }
+    #NavBarText ul li a.nav-link {
+        color: black;
+        margin-right: 50px;
+        margin-bottom: 30px;
+    }
+    .nav-link.btn.btn-light {
+        font-size: 12px;
+        border: 1px solid #00dbd0;
+        border-radius: 10px 10px;
+    }
+    .blog h2 {
+        margin-left: 520px;
+        width: 100%;
+    }
+    .text-blog {
+        width: 100%;
+        margin-left: 530px;
+    }
+    .card-deck.mt-5 {
+        margin-left: 142px;
+        margin-right: -830px;
+    }
+    .btn.btn-light-order {
+        margin-left: 150px;
+        font-size: 14px;
+        border: 2px solid #00dbd0;
+        border-radius: 10px 10px;
+    }
+    .btn-light.read-more {
+        padding-top: 10px;
+        padding-right: 60px;
+        padding-bottom: 10px;
+        padding-left: 60px;
+        margin-left: 150px;
+        font-size: 12px;
+        border: 1px solid #00dbd0;
+        border-radius: 10px 10px;
+    }
+    .btn.btn-light-load {
+        margin-left: 920px;
+        font-size: 14px;
+        border: 2px solid #00dbd0;
+        border-radius: 10px 10px;
+    }
+    .footer img {
+        width: 1869px;
+        height: 550px;
+    }
+    .container-footer {
+        margin-top: -217px;
+        margin-left: 215px;
+        color: white;
+        width: 180%;
+    }
+    .footer img {
+        width: 1965px;
+        height: 570px;
+    }
+    .col-lorem {
+        margin-top: -20px;
+    }
+    .col-information {
+        margin-left: 70px;
+    }
+    .col-aboutus {
+        margin-top: -30px;
+        margin-left: 40px;
+    }
+    .col-icons {
+        margin-top: -30px;
+        margin-left: 200px;
+    }
+    .showmore {
+        font-size: 1.1em;
+        margin-top: 1.5em;
+    }
+    .showmore .more,
+    .showmore.show .dots {
+        display: none;
+    }
+    .showmore.show .more {
+        display: inline;
+    }
+    .showmore a {
+        cursor: pointer;
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+        font-weight: bold;
+    }
+    #myBtn,
+    #myBtn2,
+    #myBtn3 {
+        padding-top: 10px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        margin-top: 20px;
+        margin-left: 155px;
+        font-size: 12px;
+        border: 1px solid #00dbd0;
+        border-radius: 16px 16px;
+        background-color: white;
+    }
+}

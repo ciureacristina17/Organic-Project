@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-icons.css">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="css/mobile-contact.css">
+    <link rel="stylesheet" href="css/tablet-contact.css">
+    <link rel="stylesheet" href="css/desktop-contact.css">
+    <link rel="stylesheet" href="css/large-contact.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.x-git.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-12">
+
+                <nav class="navbar navbar-expand navbar-light">
+                    <a class="navbar-brand ml-5" href="#logo">
+                        <img src="iages/logo.png">
+                    </a>
+
+                    <div class="collapse navbar-collapse" id="NavBarText">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link w-100" href="aboutus.html">About Us</a>
+                            </li>
+                            <li class="nav-item ml-2">
+                                <a type="button" class="nav-link btn btn-light pr-5 pl-5" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="send-message">
+            <h2 class="text-center mt-5">Send us a message</h2>
+            <h6 class="text-contact text-center mt-3">Feel free to fill out the form and reach to us. </h6>
+            <h6 class="text-contact text-center mt-1">We will get back to you shortly. </h6>
+        </div>
+
+        <form class="needs-validation" novalidate>
+            <div class="col-lg-6 mt-5 formular">
+                <div class="form-row mt-4 mb-3">
+                    <div class="form-group col-md-6 ">
+                        <input type="name" class="form-control " id="inputFirstName" placeholder="First Name" style="background-color:white " required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please add a name.
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <input type="name" class="form-control " id="inputLastName" placeholder="Last Name" style="background-color:white " required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please add a name.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6 ">
+                        <input type="email" class="form-control " id="inputEmail" placeholder="Email" style="background-color:white " required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please add an email addres.
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6 ">
+                        <input type="phone" class="form-control " id="inputPhone" placeholder="Phone" style="background-color:white " required minlength="7" maxlength="12">
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please choose a valid telephone number (between 7 and 10 characters).
+                        </div>
+                    </div>
+
+                    <div class="form-group-message col-md-12 mt-2">
+                        <textarea class="form-control" id="Textarea1 " rows="7" placeholder="Message " style="background-color:white " required></textarea>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please let us any information.
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-light-submit mt-4 pr-5 pl-5 pt-2 pb-2">Submit</button>
+                </div>
+            </div>
+        </form>
+
+        <footer class="footer text-center text-lg-start">
+            <img src="images/footer1.png" width="1529" height="430">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                </div>
+            </div>
+
+            <div class="container-footer">
+                <div class="row">
+                    <div class="col-lorem">
+                        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                        <p class="elit"> elit, sed do eiusmod tempor</p>
+                        <h6>© Copyright 2020 Nature</h6>
+                    </div>
+                    <div class="col-information">
+                        <ul>
+                            <li>
+                                <h6 style="margin-top:-30px; font-size:18px;">Information</h6>
+                            </li>
+                            <li>About Us</li>
+                            <li>Products</li>
+                            <li>Contact Us</li>
+                            <li>Terms of Service</li>
+                        </ul>
+                    </div>
+                    <div class="col-aboutus">
+                        <ul>
+                            <li></li>
+                            <li>About Us</li>
+                            <li>Products</li>
+                        </ul>
+                    </div>
+                    <div class="col-icons">
+                        <h6>Follow Us</h6>
+                        <div class="row">
+                            <i class="fab fa-facebook ml-3"></i>
+                            <i class="fab fa-linkedin ml-3"></i>
+                            <i class="fab fa-twitter ml-3"></i>
+                            <i class="fab fa-instagram-square ml-3"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    </div>
+</body>
+
+</html>
+
+<script src="js/contact-validation.js"></script>

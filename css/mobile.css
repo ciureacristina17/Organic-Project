@@ -1,0 +1,129 @@
+@media only screen and (min-device-width: 576px) and (max-device-width:767px) {
+    .navbar-brand {
+        margin-top: 5px;
+    }
+    #NavBarText ul {
+        padding-left: 750px;
+        font-size: 13px;
+        font-family: 'Libre Baskerville', serif;
+    }
+    #NavBarText ul li a.nav-link {
+        color: black;
+        margin-right: 50px;
+        margin-bottom: 30px;
+    }
+    .nav-item.ml-2 {
+        margin-left: -6.5rem!important;
+    }
+    .nav-link.btn.btn-light {
+        font-size: 12px;
+        border: 1px solid #00dbd0;
+        border-radius: 10px 10px;
+    }
+    .profil {
+        margin-top: -485px;
+        margin-left: 700px;
+        width: 842px;
+        height: 736px;
+    }
+    .frunza img {
+        margin-top: 90px;
+        margin-left: 917px;
+    }
+    .frunza h2 {
+        font-weight: 400;
+        margin-top: 20px;
+        margin-left: 792px;
+        width: 100%;
+    }
+    .continut {
+        width: 94%;
+        margin-left: 665px;
+    }
+    .organic-food {
+        width: 1900px;
+    }
+    .col-md-3.sectiune-organic {
+        margin-right: -10px;
+        padding-right: 128px;
+    }
+    .proudly h2 {
+        font-weight: 400;
+        margin-top: 140px;
+        margin-left: 791px;
+        width: 100%;
+    }
+    #carouselExampleIndicators {
+        margin-left: 380px;
+        width: 120%;
+    }
+    .adouafrunza {
+        margin-top: -80px;
+        margin-left: 1758px;
+    }
+    .fata {
+        margin-top: -1150px;
+        margin-left: 866px;
+    }
+    .jane {
+        margin-top: -500px;
+        margin-right: -930px;
+    }
+    .text-jane {
+        font-weight: 400;
+        margin-left: 470px;
+        text-align: center;
+        width: 100%;
+    }
+    .glyphicon-star {
+        display: none;
+    }
+    .glyphicon {
+        display: none;
+    }
+    .form-group {
+        width: 100%;
+        margin-left: 300px;
+    }
+    .card-deck.mt-5 {
+        flex-flow: row wrap;
+        margin-left: 119px;
+        margin-right: -820px;
+    }
+    .nav-link.btn.btn-light {
+        font-size: 12px;
+        border: 1px solid #00dbd0;
+        border-radius: 10px 10px;
+        margin-left: 155px;
+    }
+    .footer img {
+        width: 1965px;
+        height: 570px;
+    }
+    .container-footer {
+        margin-top: -175px;
+        margin-left: 210px;
+        color: white;
+        width: 180%;
+    }
+    .col-information {
+        margin-left: -10px;
+    }
+    .col-aboutus {
+        margin-left: -30px;
+    }
+    .col-icons {
+        margin-top: -25px;
+        margin-left: 170px;
+    }
+    .calc-outer-wrap {
+        margin-top: 150px;
+        background: #f3f3f3;
+        padding: 0.625rem;
+        font-size: 1rem;
+        line-height: 1.3;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        width: 1500px;
+        margin-left: 180px;
+    }
+}
